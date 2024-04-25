@@ -1,10 +1,10 @@
 import 'package:app_news/bloc_observer.dart';
-import 'package:app_news/pages/home_screen.dart';
-import 'package:app_news/theme/my_theme.dart';
+import 'package:app_news/ui/news/news_item_details.dart';
+import 'package:app_news/ui/pages/home_screen.dart';
+import 'package:app_news/ui/theme/my_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'widgets/news/news_item_details.dart';
 
 void main() {
   Bloc.observer = MyBlocObserver();
